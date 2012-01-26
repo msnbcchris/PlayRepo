@@ -13,6 +13,8 @@
 		CDB3A61514D1DB96009FF755 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CDB3A61314D1DB96009FF755 /* InfoPlist.strings */; };
 		CDB3A61714D1DB96009FF755 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB3A61614D1DB96009FF755 /* main.m */; };
 		CDB3A61B14D1DB96009FF755 /* PlayProjAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB3A61A14D1DB96009FF755 /* PlayProjAppDelegate.m */; };
+		CDB3A62414D1DDC1009FF755 /* PlayVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB3A62214D1DDC1009FF755 /* PlayVC.m */; };
+		CDB3A62514D1DDC1009FF755 /* PlayVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDB3A62314D1DDC1009FF755 /* PlayVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		CDB3A61814D1DB96009FF755 /* PlayProj-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlayProj-Prefix.pch"; sourceTree = "<group>"; };
 		CDB3A61914D1DB96009FF755 /* PlayProjAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayProjAppDelegate.h; sourceTree = "<group>"; };
 		CDB3A61A14D1DB96009FF755 /* PlayProjAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayProjAppDelegate.m; sourceTree = "<group>"; };
+		CDB3A62114D1DDC1009FF755 /* PlayVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayVC.h; sourceTree = "<group>"; };
+		CDB3A62214D1DDC1009FF755 /* PlayVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayVC.m; sourceTree = "<group>"; };
+		CDB3A62314D1DDC1009FF755 /* PlayVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +80,9 @@
 				CDB3A61914D1DB96009FF755 /* PlayProjAppDelegate.h */,
 				CDB3A61A14D1DB96009FF755 /* PlayProjAppDelegate.m */,
 				CDB3A61114D1DB96009FF755 /* Supporting Files */,
+				CDB3A62114D1DDC1009FF755 /* PlayVC.h */,
+				CDB3A62214D1DDC1009FF755 /* PlayVC.m */,
+				CDB3A62314D1DDC1009FF755 /* PlayVC.xib */,
 			);
 			path = PlayProj;
 			sourceTree = "<group>";
@@ -142,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDB3A61514D1DB96009FF755 /* InfoPlist.strings in Resources */,
+				CDB3A62514D1DDC1009FF755 /* PlayVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +163,7 @@
 			files = (
 				CDB3A61714D1DB96009FF755 /* main.m in Sources */,
 				CDB3A61B14D1DB96009FF755 /* PlayProjAppDelegate.m in Sources */,
+				CDB3A62414D1DDC1009FF755 /* PlayVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
