@@ -1,0 +1,264 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDB3A60B14D1DB96009FF755 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB3A60A14D1DB96009FF755 /* UIKit.framework */; };
+		CDB3A60D14D1DB96009FF755 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB3A60C14D1DB96009FF755 /* Foundation.framework */; };
+		CDB3A60F14D1DB96009FF755 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB3A60E14D1DB96009FF755 /* CoreGraphics.framework */; };
+		CDB3A61514D1DB96009FF755 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CDB3A61314D1DB96009FF755 /* InfoPlist.strings */; };
+		CDB3A61714D1DB96009FF755 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB3A61614D1DB96009FF755 /* main.m */; };
+		CDB3A61B14D1DB96009FF755 /* PlayProjAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB3A61A14D1DB96009FF755 /* PlayProjAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CDB3A60614D1DB96009FF755 /* PlayProj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayProj.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDB3A60A14D1DB96009FF755 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CDB3A60C14D1DB96009FF755 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CDB3A60E14D1DB96009FF755 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CDB3A61214D1DB96009FF755 /* PlayProj-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlayProj-Info.plist"; sourceTree = "<group>"; };
+		CDB3A61414D1DB96009FF755 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CDB3A61614D1DB96009FF755 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CDB3A61814D1DB96009FF755 /* PlayProj-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlayProj-Prefix.pch"; sourceTree = "<group>"; };
+		CDB3A61914D1DB96009FF755 /* PlayProjAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayProjAppDelegate.h; sourceTree = "<group>"; };
+		CDB3A61A14D1DB96009FF755 /* PlayProjAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayProjAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDB3A60314D1DB96009FF755 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB3A60B14D1DB96009FF755 /* UIKit.framework in Frameworks */,
+				CDB3A60D14D1DB96009FF755 /* Foundation.framework in Frameworks */,
+				CDB3A60F14D1DB96009FF755 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDB3A5FB14D1DB96009FF755 = {
+			isa = PBXGroup;
+			children = (
+				CDB3A61014D1DB96009FF755 /* PlayProj */,
+				CDB3A60914D1DB96009FF755 /* Frameworks */,
+				CDB3A60714D1DB96009FF755 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDB3A60714D1DB96009FF755 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDB3A60614D1DB96009FF755 /* PlayProj.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDB3A60914D1DB96009FF755 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDB3A60A14D1DB96009FF755 /* UIKit.framework */,
+				CDB3A60C14D1DB96009FF755 /* Foundation.framework */,
+				CDB3A60E14D1DB96009FF755 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDB3A61014D1DB96009FF755 /* PlayProj */ = {
+			isa = PBXGroup;
+			children = (
+				CDB3A61914D1DB96009FF755 /* PlayProjAppDelegate.h */,
+				CDB3A61A14D1DB96009FF755 /* PlayProjAppDelegate.m */,
+				CDB3A61114D1DB96009FF755 /* Supporting Files */,
+			);
+			path = PlayProj;
+			sourceTree = "<group>";
+		};
+		CDB3A61114D1DB96009FF755 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDB3A61214D1DB96009FF755 /* PlayProj-Info.plist */,
+				CDB3A61314D1DB96009FF755 /* InfoPlist.strings */,
+				CDB3A61614D1DB96009FF755 /* main.m */,
+				CDB3A61814D1DB96009FF755 /* PlayProj-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDB3A60514D1DB96009FF755 /* PlayProj */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDB3A61E14D1DB96009FF755 /* Build configuration list for PBXNativeTarget "PlayProj" */;
+			buildPhases = (
+				CDB3A60214D1DB96009FF755 /* Sources */,
+				CDB3A60314D1DB96009FF755 /* Frameworks */,
+				CDB3A60414D1DB96009FF755 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayProj;
+			productName = PlayProj;
+			productReference = CDB3A60614D1DB96009FF755 /* PlayProj.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDB3A5FD14D1DB96009FF755 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = msnbc.com;
+			};
+			buildConfigurationList = CDB3A60014D1DB96009FF755 /* Build configuration list for PBXProject "PlayProj" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CDB3A5FB14D1DB96009FF755;
+			productRefGroup = CDB3A60714D1DB96009FF755 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDB3A60514D1DB96009FF755 /* PlayProj */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDB3A60414D1DB96009FF755 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB3A61514D1DB96009FF755 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDB3A60214D1DB96009FF755 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB3A61714D1DB96009FF755 /* main.m in Sources */,
+				CDB3A61B14D1DB96009FF755 /* PlayProjAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CDB3A61314D1DB96009FF755 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDB3A61414D1DB96009FF755 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDB3A61C14D1DB96009FF755 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CDB3A61D14D1DB96009FF755 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDB3A61F14D1DB96009FF755 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlayProj/PlayProj-Prefix.pch";
+				INFOPLIST_FILE = "PlayProj/PlayProj-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CDB3A62014D1DB96009FF755 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlayProj/PlayProj-Prefix.pch";
+				INFOPLIST_FILE = "PlayProj/PlayProj-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDB3A60014D1DB96009FF755 /* Build configuration list for PBXProject "PlayProj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDB3A61C14D1DB96009FF755 /* Debug */,
+				CDB3A61D14D1DB96009FF755 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDB3A61E14D1DB96009FF755 /* Build configuration list for PBXNativeTarget "PlayProj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDB3A61F14D1DB96009FF755 /* Debug */,
+				CDB3A62014D1DB96009FF755 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDB3A5FD14D1DB96009FF755 /* Project object */;
+}
