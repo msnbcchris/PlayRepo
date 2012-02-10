@@ -10,4 +10,6 @@
 
 @interface PlayVC : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *theLabel;
+- (IBAction)do:(id)sender;
 @end
