@@ -40,3 +40,5 @@ application/json
 https://7b1468f6.ngrok.com/github-webhook/
 urlencoded
 
+https://7b1468f6.ngrok.com/github-webhook
+urlencoded
